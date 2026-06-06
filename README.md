@@ -4,6 +4,16 @@
 
 This repo includes a reproducible script for generating a California county heat map of 2025 CAASPP proficiency, averaged across ELA and Math.
 
+## Repository Layout
+
+- `math189_final_project.ipynb`: main analysis notebook.
+- `featureSelection.ipynb`: feature-selection/modeling notebook.
+- `scripts/`: reusable scripts for reproducible figure generation.
+- `data/raw/`: supporting raw assets that are not already in the repo root.
+- `data/processed/`: generated cleaned/aggregated CSV files.
+- `outputs/figures/`: generated plots and report figures.
+- `requirements.txt`: Python dependencies needed to run the notebook/scripts.
+
 ### Inputs
 
 - `sb_ca2025_1_csv_v1.zip`: CAASPP school-level testing data.
